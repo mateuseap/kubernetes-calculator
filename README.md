@@ -57,7 +57,7 @@ Next, run the Flask server locally:
 
 ```bash
 # Run the Flask server
-flask run --app app.py --debug --port 5000
+flask run --debug --port 5000
 ```
 
 The backend will be accessible locally at http://localhost:5000. The ``--debug`` flag enables automatic reloading whenever changes are made to the backend code.
