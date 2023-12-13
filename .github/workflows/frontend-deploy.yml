@@ -26,6 +26,11 @@ jobs:
           git fetch --all
           git branch -a
 
+      - name: Create .env file
+        run: |
+          cd frontend
+          echo "VITE_BACKEND_URL=${{ vars.API_URL }}" > .env
+
       - name: Build & Deploy
         run: |
           npm install
