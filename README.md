@@ -1,4 +1,4 @@
-# kubernetes-calc-back
+# Kubernetes Calculator
 
 This is the backend for the **Kubernetes Calculator** application. It makes queries to the AWS Pricing API and cache the EC2 pricing and specs locally.
 
