@@ -1,5 +1,5 @@
-from backend.aws.resource_reservation import *
-from backend.data.resource_convertion import *
+from aws.resource_reservation import *
+from data.resource_convertion import *
 
 
 class Instances:

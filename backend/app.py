@@ -1,5 +1,5 @@
 import jsonpickle
-from backend.data.instance import *
+from data.instance import *
 from flask import Flask
 
 app = Flask(__name__)
