@@ -14,6 +14,8 @@ Before getting started, ensure you have the following installed on your machine:
 
 ### Setup and Run
 
+Start by creating a ``.env`` file in the frontend folder. Use the example in [``.env.template``](./frontend/.env.template) file as a guide and add your own settings. Once that's done, install the dependencies and launch the React app:
+
 ```bash
 # Install the dependecies
 npm install
@@ -22,11 +24,11 @@ npm install
 npm run dev
 ```
 
-Access the application locally at http://localhost:5173/kubernetes-calculator/. It automatically reloads when you make changes.
+You can then access the application locally at http://localhost:5173/kubernetes-calculator/. It automatically refreshes whenever you make changes.
 
 ### Deploy
 
-If you wish to deploy locally, start by building the project and then running the ``deploy`` script:
+If you wish to deploy from your local source, start by building the project and then run the ``deploy`` script:
 
 ```bash
 # Build the project
